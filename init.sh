@@ -26,3 +26,6 @@ rye config --set-bool behavior.use-uv=true
 
 # Sync Rye
 rye sync
+
+# Activate virtual environment
+source .venv/bin/activate
