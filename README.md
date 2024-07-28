@@ -29,3 +29,18 @@ rye add xxx
 ```sh
 deactivate
 ```
+
+### リンティング
+```sh
+rye run lint
+```
+- `lint:ruff`: `ruff` を使用してコードのチェックを行います。
+- `lint:ruff_format`: `ruff` を使用してコードのフォーマットチェックを行います。
+- `lint:mypy`: `mypy` を使用して型チェックを行います。
+
+### フォーマット
+```sh
+rye run format
+```
+- `format:ruff`: `ruff` を使用してコードのフォーマットを行います。
+- `format:ruff_check`: `ruff` を使用してフォーマット後のコードチェックを行います。

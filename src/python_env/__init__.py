@@ -5,4 +5,5 @@ def hello() -> str:
 if __name__ == "__main__":
     print(hello())
     import numpy as np
+
     print(np.__version__)
