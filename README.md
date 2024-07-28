@@ -1,6 +1,8 @@
 # Python
 
 ## 環境構築
+`rye`+ `uv` + `ruff`を用いてpythonの環境を構築する
+
 
 ### `init.sh` に権限を付与
 ```sh
